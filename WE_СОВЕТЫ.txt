@@ -1,0 +1,24 @@
+Wallpaper Engine — видео не открываются (официальная помощь)
+
+1. ДРАЙВЕРЫ ВИДЕОКАРТЫ (самая частая причина)
+   — Скачай последние драйверы: nvidia.com / amd.com / intel.com
+   — Полностью удали старые (DDU: guru3d.com)
+   — Установи новые
+
+2. КОДЕКИ
+   — Codec Tweak Tool: codecguide.com/download_other.htm
+   — Сброс: Media Foundation → снять все галочки → применить
+   — Перезагрузка ПК
+
+3. LAV FILTERS + DirectShow (для проблемных MP4)
+   — Скачай LAV: github.com/Nevcairiel/LAVFilters/releases (x86 И x64)
+   — Установи
+   — WE → Настройки → General → Video framework: Prefer DirectShow
+   — Перезапуск WE
+
+4. WebM вместо MP4
+   python gif_to_mp4.py webm
+   — Конвертирует в .webm (часто стабильнее в WE)
+   — WE → Настройки → WebM framework: Prefer Native
+
+Ссылки: help.wallpaperengine.io
