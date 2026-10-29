@@ -1,5 +1,7 @@
 # GIF To MP4
 
+> Public experimental source: see [PUBLICATION.md](PUBLICATION.md) for actual checks, known defects, restored modules and operational limits. Earlier audit decisions are historical.
+
 ## Описание
 
 Локальная Python-утилита для массовой конвертации GIF в форматы, удобные для использования в Wallpaper Engine: `MP4`, `WebM` и оптимизированный `GIF` в 1080p.
